@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>浙江省初中学业水平考试信息管理系统</title>
+    
+    <script>
+        function warnning () {
+            alert('本站点已停止注册服务。请于“2024年浙江省初中学业水平考试”报名点注册账号。');
+        }
+        function tijiao() {
+            //vaildate
+            //var shenfenzheng = document.getElementsByName(".loginInput1");
+            //if (shenfenzheng == "") { alert("身份证不能为空！"); return false; }
+            //var mima = document.getElementsByName(".loginInput"); if (mima == "")
+            //alert("密码不能为空！");
+            
+            
+            window.location.href='index2.html';
+        }
+        
+    </script>
+</head>
+<body>
+
+    <div class="bg">
+        <div id="log_left">
+        浙江省初中学业水平考试信息管理系统<br>
+        <p style=" text-align:right;"><a target="_blank" style=" font-size:18px;  color:Red;  font-family:NSimSun; margin-left:10px;"  
+            href="https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click&vd_source=d11966dadea9029775ee1cb8afb04c57">查看使用说明</a><br/>
+        
+</p>
+        </div>
+        <div id="log_middle"></div>
+        <div id="log_right"><table class="logintb">
+            <tr><td class="loginleft">
+           <label id="sfzlbl">考生号：</label></td><td class="loginright"><input id="shenfenzheng" name="shenfenzheng" class="loginInput" value="" />
+            </td>
+            </tr>
+            <tr><td class="loginleft">
+           <label> 身份证号：</label></td><td class="loginright"><input id="mima" name="mima" type="password" class="loginInput"  value="" /><br/>
+            </td>
+            </tr>
+            <tr><td class="loginleft">
+            
+            
+            <tr><td class="loginleft"></td><td  class="loginright"  ><input id="btnSubmit" class="loginInput1" type="button" value="登录" onclick="return tijiao()" 
+                style="font-weight: bold; cursor:pointer; color:#333;" /> 
+            <input id="Button1" class="loginInput1" type="button" value="注册" onclick="warnning()"
+                style="font-weight: bold; cursor:pointer; color:#333;" />
+                
+            </table>
+        </div>
+
+    </div> 
+    <div style=" text-align:center; color:Red;font-size:18px;"><br>
+
+        说明：考生参加考试报名时请先以有效证件注册账号，该账号及考生信息在本系统所有考试项目通用，不需重复注册。<br><br>
+
+注意：请使用360安全浏览器（兼容模式）、Google Chrome、Mozilla Firefox、IE8.0及以上版本浏览器，可使用手机和平板电脑。
+        </div>
+    <div class="footer">版权所有：浙江省教育考试院</div>
+
+</body>
+</html>
+</html>
